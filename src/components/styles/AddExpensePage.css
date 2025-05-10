@@ -1,0 +1,49 @@
+.expense-container {
+  width: 350px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #eb4d4b;
+  border-radius: 10px;
+  background-color: #fff5f5;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.expense-container h2 {
+  text-align: center;
+  color: #c0392b;
+}
+
+.expense-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-container label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2d3436;
+}
+
+.expense-container input,
+.expense-container select {
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.expense-container button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.expense-container button:hover {
+  background-color: #a93226;
+}

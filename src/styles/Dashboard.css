@@ -1,0 +1,48 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+/* Ensure the main content starts below the fixed/sticky navbar */
+.main-content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 5px 5px 5px; /* Top padding prevents overlap with navbar */
+  box-sizing: border-box;
+  
+  
+}
+
+/* Logout section styling */
+.logout-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.logout-section h1 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.logout-section button {
+  margin-left: 12px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  background-color: #c31520;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.logout-section button:hover {
+  background-color: #602429;
+}

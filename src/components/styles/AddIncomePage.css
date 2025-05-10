@@ -1,0 +1,49 @@
+.income-container {
+  width: 350px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #6ab04c;
+  border-radius: 10px;
+  background-color: #f0fff0;
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+}
+
+.income-container h2 {
+  text-align: center;
+  color: #27ae60;
+}
+
+.income-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.income-container label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2d3436;
+}
+
+.income-container input,
+.income-container select {
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.income-container button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.income-container button:hover {
+  background-color: #219653;
+}

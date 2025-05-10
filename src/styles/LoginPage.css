@@ -1,0 +1,123 @@
+/* Basic Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  height: 100vh;
+}
+
+/* Container with Background Image */
+.log_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 10%;
+  background-image: url("../images/login_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* App Title Styling */
+.title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 600;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+.title:hover {
+  color: #00c9ff;
+  transform: scale(1.05);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Login Box */
+.login-page {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px); /* Glass effect */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 360px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.login-page:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Heading */
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Input Fields */
+.login-form input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 14px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.login-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Submit Button */
+.login-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Create Account Link */
+.create-account-link {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.create-account-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .log_container {
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .title {
+    font-size: 28px;
+    text-align: center;
+  }
+}

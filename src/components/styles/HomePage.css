@@ -1,0 +1,152 @@
+/* HomePage.css */
+
+/* General Layout */
+.home-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  padding: 60px 20px;
+  min-height: 100vh;
+  display: flex;
+ /* flex-direction: column;
+  align-items: center;*/
+}
+
+h1, h2 {
+  color: #2C3E50;
+  margin-bottom: 20px;
+}
+
+/* Intro Section */
+.intro-card {
+  background-color: #fff;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.intro-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.intro-card h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #1A73E8;
+  margin-bottom: 15px;
+}
+
+.intro-card p {
+  font-size: 1.2rem;
+  color: #7F8C8D;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+/* Features Section */
+.features-section {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.features-section h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #34495E;
+}
+
+.features-section ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  color: #2C3E50;
+}
+
+.features-section ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.features-section ul li::before {
+  content: '✓';
+  color: #1A73E8;
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+
+.features-section ul li:hover {
+  transform: translateX(10px);
+  color: #1A73E8;
+}
+
+/* Getting Started Section */
+.getting-started {
+  background-color: #fff;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.getting-started:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+.getting-started h2 {
+  font-size: 2.2rem;
+  color: #1A73E8;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.getting-started p {
+  font-size: 1.2rem;
+  color: #7F8C8D;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-page {
+    padding: 40px 20px;
+  }
+
+  .intro-card, .features-section, .getting-started {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .intro-card h1 {
+    font-size: 2.2rem;
+  }
+
+  .features-section h2, .getting-started h2 {
+    font-size: 1.8rem;
+  }
+
+  .features-section ul li {
+    font-size: 1rem;
+  }
+
+  .getting-started p {
+    font-size: 1rem;
+  }
+}
