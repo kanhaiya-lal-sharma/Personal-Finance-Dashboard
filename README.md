@@ -21,7 +21,7 @@ Firebase (Authentication + Firestore database)<br>
 
 HTML5, CSS3, JavaScript<br>
 
-Charting library (e.g., Recharts or Chart.js)<br>
+Charting library (like- Recharts)<br>
 
 
 
