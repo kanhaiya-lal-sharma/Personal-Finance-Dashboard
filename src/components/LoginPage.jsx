@@ -15,7 +15,7 @@ function LoginPage() {
       await signInWithEmailAndPassword(auth, email, password);
       navigate('/dashboard');
     } catch (error) {
-      alert("Please enter correct email or password🤖");
+      alert("Please enter correct email or password ");
     }
   };
 
